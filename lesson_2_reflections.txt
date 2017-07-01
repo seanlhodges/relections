@@ -1,0 +1,4 @@
+What happens when you initialise a repository? Why do you need to do it?
+
+With "> git init", a hidden folder is created, called ".git". This folder (1) marks that this is a tracked folder and contains all the necessary data to ensure version changes can be managed.
+
