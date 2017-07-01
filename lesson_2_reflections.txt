@@ -13,3 +13,7 @@ By using "git diff" and "git diff --staging", the user can compare changes and c
 What are some of the situations when branches would be helpful in keeping your history organised? How would branches help?
 
 Maitaining versions, adding new features, refactoring code; implementing alternative approaches to solve problems, all while keeping a workking master branch
+
+How do the diagrams help you visualise the branch structure?
+
+By providing a full ancestry of parent-child relationship between commits, and showing links between branches i.e. where a new branch may have been created from the master or other existing branches
