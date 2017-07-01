@@ -17,3 +17,13 @@ Maitaining versions, adding new features, refactoring code; implementing alterna
 How do the diagrams help you visualise the branch structure?
 
 By providing a full ancestry of parent-child relationship between commits, and showing links between branches i.e. where a new branch may have been created from the master or other existing branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Commits from the branches are interleaved into the checked-out branch. This interleaving is based on date/time of the commits. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatic merging pros: if changes are simple, then an automatic merge will speed up development and adding new features
+Automatic merging cons: CAn result in conflicts that need careful resolution.
+Manual process: time consuming and need to ensure logic carefully followed
