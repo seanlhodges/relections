@@ -13,3 +13,7 @@ Describe the differences between forks, clones, and branches. When would you use
 Forks: these are clones of branches between users on, and within, Github. Useful when you wish to build on another persons repo.
 Clone: these are clones of branches using Git, with branches either in git or from GitHub. Useful to make changes that can be linked back to an origin.
 Branches: these are a group of commits that together make up the history of the code development. Various tracks can be followed to develop new features or test changes, using branches, without affecting the master code.
+
+How would you collaborate without using Git or GitHub? What would be easier? What would be harder?
+
+Old fashioned collaboration would require emailing commments around or sharing copies of the same file with edited content. Naming would soon get awkward, unless you took a rigorous approach to maintaining copies of contributed code in subfolders. Duplicating a lot of code would take considerable effort. On the plus side, however, you would not need to remember the commands for git and github. These commands, however, do serve the same function as physically making your own copies, and it does make it easier to track feedback and changes.
